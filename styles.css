@@ -14,7 +14,103 @@ section{
 }
 
 #frase{
-  
+  width: 100%;
+  float: left;
+  height: 50vh;
+  position: relative;
+  background-image: url('https://raw.githubusercontent.com/paoloporfi/paoloporfi.github.io/main/images/perga.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#frase h1{
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase p{
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 8%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h2{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 17%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h3{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 21%;
+  font-size: 30px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase{
+  width: 100%;
+  float: left;
+  height: 50vh;
+  position: relative;
+  background-image: url("../Home/images/perga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#frase h1{
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 6%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase p{
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 8%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h2{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 17%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h3{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 21%;
+  font-size: 30px;
+  color: #212121;
   font-family: CustomFont2;
    src: url('BLKCHCRY.ttf');
 }
