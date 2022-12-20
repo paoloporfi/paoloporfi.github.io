@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+      scroll-behavior: smooth;
+}
+
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#frase{
+  width: 100%;
+  float: left;
+  height: 50vh;
+  position: relative;
+  background-image: url("../Home/images/perga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#frase h1{
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase p{
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 8%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h2{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 17%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h3{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 21%;
+  font-size: 30px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase{
+  width: 100%;
+  float: left;
+  height: 50vh;
+  position: relative;
+  background-image: url("../Home/images/perga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#frase h1{
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 6%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase p{
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 8%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h2{
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 17%;
+  font-size: 100px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+#frase h3{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 21%;
+  font-size: 30px;
+  color: #212121;
+  font-family: CustomFont2;
+   src: url('BLKCHCRY.ttf');
+}
+
+nav{
+
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #E8DCB8;
+    top: 0px;
+
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 20%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #cb3234;
+
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.ludoeorlando{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
+.ludoeorlando img{
+    height: 90%;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.ludoeorlando:hover .shape{
+    bottom: 40px;
+}
+
+.ludoeorlando:hover .Ludovico{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: #cb3234;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+
+    color: #black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+#Biografia h1{
+
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: #212121;
+
+
+}
+
+#Biografia p{
+
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 13%;
+  margin-right: 40%;
+  color: #555;
+  line-height: 22px;
+}
+
+#Orlando h1{
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: #212121;
+}
+
+#Orlando p{
+  position: absolute;
+  margin-left: 45%;
+  margin-right: 8%;
+  margin-top: 13%;
+  color: #555;
+  line-height: 22px;
+}
+
+#Approfondimenti h1{
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: #212121;
+}
+
+#Approfondimenti p{
+  position: absolute;
+  margin-left: 45%;
+  margin-right: 8%;
+  margin-top: 20%;
+  color: #555;
+  line-height: 22px;
+}
+
+
+header{
+
+    position: fixed;
+    z-index: 999;
+}
+
+.ludo{
+    width: 15%;
+    height: 40%;
+    position: absolute;
+    bottom: 280px;
+    right: 150px;
+    transform: translateX(-50%);
+    transition: right 1s, bottom 1s;
+}
+
+
+.ippolito{
+    width: 15%;
+    height: 55%;
+    position: absolute;
+    bottom: 200px;
+    right: 295px;
+}
+
+.ludoeippo:hover .ludo{
+    right: 0;
+}
+
+
+.orlandopazzo{
+
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+}
+
+.am{
+
+  position: absolute;
+  bottom: 200px;
+  left: 150px;
+  width: 30%;
+  height: 40%;
+}
