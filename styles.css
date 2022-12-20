@@ -5,6 +5,15 @@
       scroll-behavior: smooth;
 }
 
+WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%;
+    height: auto;
+    margin: auto;
+}
 
 section{
     width: 100%;
