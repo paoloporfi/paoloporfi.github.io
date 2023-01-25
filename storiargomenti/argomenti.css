@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+      scroll-behavior: smooth;
+
+}
+
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+    background-color:  #F9FBFF;
+}
+
+
+
+nav{
+
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffd700;
+    top: 0px;
+
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 4%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(191, 128, 64);
+}
+
+
+span{
+    color: #cb3234;
+
+
+
+
+
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+margin-left: 0%;
+}
+
+#menu li a{
+
+    color: #black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 40px;
+}
+
+
+
+
+
+#testodestra1 h1{
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: rgb(230, 128, 25);
+  text-align: center;
+}
+
+
+#testodestra1 p{
+  position: absolute;
+  margin-left: 55%;
+  margin-right: 10%;
+  margin-top: 15%;
+  color: #555;
+  line-height: 22px;
+  text-align: justify;
+}
+
+#testosinistra1 h1{
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: rgb(230, 128, 25);
+  text-align: center;
+}
+
+#testosinistra1 p{
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 15%;
+  margin-right: 50%;
+  color: #555;
+  line-height: 22px;
+  text-align: justify;
+}
+
+#testodestra2 h1{
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: rgb(230, 128, 25);
+  text-align: center;
+}
+
+
+#testodestra2 p{
+  position: absolute;
+  margin-left: 55%;
+  margin-right: 10%;
+  margin-top: 15%;
+  color: #555;
+  line-height: 22px;
+  text-align: justify;
+}
+
+#testosinistra2 h1{
+  position: absolute;
+  margin-left: 21%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: rgb(230, 128, 25);
+  text-align: center;
+}
+
+#testosinistra2 p{
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 15%;
+  margin-right: 50%;
+  color: #555;
+  line-height: 22px;
+  text-align: justify;
+}
+
+#testodestra3 h1{
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: rgb(230, 128, 25);
+  text-align: center;
+}
+
+
+#testodestra3 p{
+  position: absolute;
+  margin-left: 55%;
+  margin-right: 10%;
+  margin-top: 15%;
+  color: #555;
+  line-height: 22px;
+  text-align: justify;
+}
+
+#testosinistra3 h1{
+  position: absolute;
+  margin-left: 21%;
+  margin-top: 10%;
+  font-size: 50px;
+  color: rgb(230, 128, 25);
+  text-align: center;
+}
+
+#testosinistra3 p{
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 15%;
+  margin-right: 50%;
+  color: #555;
+  line-height: 22px;
+  text-align: justify;
+}
+
+#quiz h1{
+
+  margin-top: 10%;
+  font-size: 70px;
+  color: rgb(230, 128, 25);
+  text-align: center;
+
+}
+
+#quiz p{
+
+  margin-top: 3%;
+  font-size: 30px;
+  color: #555;
+  text-align: center;
+}
+
+a{text-decoration: none;
+  color:#555;
+}
+h2 a:hover{color: rgb(191, 128, 64);}
+#quiz h2{
+  margin-top: 10%;
+  margin-left: 30%;
+  font-size: 70px;
+  color: #555;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: #ffd700;
+  border-radius: 30px;
+  padding: 120px;
+    width: 500px;
+    height: 10px;
+}
+
+.comuni{
+width: 500px;
+margin-left: 65%;
+margin-top: 20%;
+}
+
+.cavalieri{
+width: 400px;
+margin-left: 15%;
+margin-top: 17%;
+}
+
+.crociate{
+width: 500px;
+margin-left: 65%;
+margin-top: 20%;
+}
+
+.barbarossa{
+width: 300px;
+margin-left: 15%;
+margin-top: 16%;
+}
+
+.innocenzo{
+width: 400px;
+margin-left: 65%;
+margin-top: 10%;
+}
+
+.federico2{
+width: 300px;
+margin-left: 15%;
+margin-top: 16%;
+}
+
+header{
+
+    position: fixed;
+    z-index: 999;
+}
