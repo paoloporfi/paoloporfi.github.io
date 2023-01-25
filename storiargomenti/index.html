@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LineaTempoBassoMedioevo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+            height: auto;
+            background-color:  #F9FBFF;
+            font-family: poppins;
+            padding: 50px 0;
+            display: grid;
+            place-items: center;
+        }
+        .main .heading{
+            font-size: 27px;
+            font-weight: 500;
+            color: rgb(230, 128, 25);
+            position: relative;
+            margin-bottom: 80px;
+        }
+        .heading::after{
+            content: " ";
+            position: absolute;
+            width: 50%;
+            height: 4px;
+            left: 50%;
+            bottom: -5px;
+            background-image: linear-gradient(to right, rgb(230, 128, 25), #ffd700);
+            transform: translateX(-50%);
+        }
+
+        /* Container Css Start  */
+
+        .container{
+            width: 70%;
+            height: auto;
+            position: relative;
+        }
+        .container ul::after{
+            position: absolute;
+            content: '';
+            width: 2px;
+            height: 100%;
+            background-image: linear-gradient(to right, rgb(230, 128, 25), rgb(191, 128, 64));
+        }
+        .container ul{
+            list-style: none;
+        }
+        .container ul li{
+            width: 50%;
+            height: auto;
+            padding: 15px 20px;
+            background-color: #fff;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 25px rgba(51, 51, 51, 0.192);
+            position: relative;
+            z-index: 99;
+        }
+        .container ul li:nth-child(odd){
+            float: left;
+            clear: right;
+            transform: translateX(-30px);
+        }
+        .container ul li:nth-child(odd) .date{
+            right: 20px;
+        }
+        .container ul li:nth-child(even){
+            float: right;
+            clear: left;
+            transform: translateX(30px);
+        }
+        .container ul li:nth-child(4){
+            margin-bottom: 0;
+        }
+        .container ul li .title{
+            font-size: 20px;
+            font-weight: 500;
+            color: rgb(230, 128, 25);
+        }
+        ul li p{
+            font-size: 15px;
+            color: #444;
+            margin: 7px 0;
+            line-height: 23px;
+        }
+        ul li a{
+            font-size: 15px;
+            color: rgb(230, 128, 25);
+            text-decoration: none;
+        }
+        ul li .date{
+            position: absolute;
+            top: -45px;
+            width: 135px;
+            height: 35px;
+            border-radius: 20px;
+            color: #fff;
+            background-image: linear-gradient(to right,#ffd700 ,rgb(230, 128, 25) );
+            display: grid;
+            place-items: center;
+            font-size: 14px;
+        }
+        .container ul li .circle{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgba(230, 128, 25, 0.401);
+            position: absolute;
+            top: 0;
+        }
+        .container ul li .circle::after{
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: rgb(230, 128, 25);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .container ul li:nth-child(odd) .circle{
+            right: -30px;
+            transform: translate(50%, -50%);
+        }
+        .container ul li:nth-child(even) .circle{
+            left: -30px;
+            transform: translate(-50%, -50%);
+        }
+
+
+
+        /*  Media Query Started  */
+
+        @media screen and (max-width:1224px){
+            .container{
+                width: 85%;
+            }
+        }
+
+        @media screen and (max-width:993px){
+            .container{
+                width: 80%;
+                transform: translateX(15px);
+            }
+            .container ul::after{
+                left: -30px;
+            }
+            .container ul li{
+                width: 100%;
+                float: none;
+                clear: none;
+                margin-bottom: 80px;
+            }
+            .container ul li:nth-child(odd){
+                text-align: left;
+                transform: translateX(0);
+            }
+            .container ul li:nth-child(odd) .date{
+                left: 20px;
+            }
+            .container ul li:nth-child(odd) .circle{
+                left: -30px;
+                transform: translate(-50%, -50%);
+            }
+            .container ul li:nth-child(even){
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <h3 class="heading">Basso Medioevo</h3>
+
+        <div class="container">
+            <ul>
+                <li>
+                    <h3 class="title">Sviluppo Dei Comuni</h3>
+                    <p>Nel X secolo, il primo sviluppo, lo si nota nel settore agricolo con l’aumento della produttività grazie alla rotazione triennale, con cui un campo veniva ripartito in tre parti...
+</p>
+                    <a href="storiargomenti/argomenti.html#testosinistra1">Leggi Di Più ></a>
+                    <span class="circle"></span>
+                    <span class="date">1000-1075</span>
+                </li>
+                <li>
+                    <h3 class="title">Scontri Fra Chiesa E Impero</h3>
+                    <p>Nel 1075 viene emanato il “Dictatus Papae”, da papa da Gregorio VII, che esprime la superiorità della chiesa sull’imperatore (Enrico IV),  in una raccolta di 27 affermazioni che enunciano...</p>
+                    <a href="storiargomenti/argomenti.html#testodestra1">Leggi Di Più ></a>
+                    <span class="circle"></span>
+                    <span class="date">1075-1122</span>
+                </li>
+                <li>
+                    <h3 class="title">Le Crociate</h3>
+                    <p>Le crociate sono una serie di guerre promosse dalla Chiesa in un periodo che va dal 1097 al 1230 sono state 8, molte mirate a liberare la Terrasanta dai musulmani per consentire un...</p>
+                    <a href="storiargomenti/argomenti.html#testosinistra2">Leggi Di Più ></a>
+                    <span class="circle"></span>
+                    <span class="date">1097-1227</span>
+                </li>
+                <li>
+                    <h3 class="title">Federico Barbarossa</h3>
+                    <p>Federico I fu incoronato re di Germania il 4 marzo 1152. Imparentato da parte di padre con la casata ghibellina e da parte materna con quella guelfa, la sua ascesa al trono portò una...</p>
+                    <a href="storiargomenti/argomenti.html#testodestra2">Leggi Di Più ></a>
+                    <span class="circle"></span>
+                    <span class="date">1152-1183</span>
+                </li>
+                <li>
+                    <h3 class="title">Innocenzo III</h3>
+                    <p>Siamo nel 1190 e, nonostante la tregua tra chiesa e impero, le lotte erano ancora costanti. Troviamo un rafforzamento dell'autorità della chiesa e una crisi dell'impero, causata da...</p>
+                    <a href="storiargomenti/argomenti.html#testosinistra3">Leggi Di Più ></a>
+                    <span class="circle"></span>
+                    <span class="date">1198-1216</span>
+                </li>
+                <li>
+                    <h3 class="title">Federico II</h3>
+                    <p>Federico II di Svevia, conosciuto anche come Federico II di Hohenstaufen, è stato un imperatore tedesco e re di Sicilia dal 1220 al 1250 circa. Nato a Istria, in Croazia, nel 1194, è stato...</p>
+                    <a href="storiargomenti/argomenti.html#testodestra3">Leggi Di Più ></a>
+                    <span class="circle"></span>
+                    <span class="date">1220-1250</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
